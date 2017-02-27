@@ -24,7 +24,6 @@ module Twitch
 
     def put(url, data={})
       @adapter.put(url, :body => data, :headers => {
-        'Accept' => 'application/json',
         'Content-Type' => 'application/json',
         'Api-Version' => '2.2',
         'Client-ID' => @client_id,
