@@ -1,5 +1,5 @@
 require 'rspec'
-require 'twitch'
+require 'twitch_old'
 
 RSpec.configure do |config|
   config.color = true

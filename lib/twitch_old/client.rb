@@ -1,10 +1,10 @@
-require 'twitch/request'
-require 'twitch/adapters'
+require 'twitch_old/request'
+require 'twitch_old/adapters'
 
-module Twitch
+module TwitchOld
   class Client
-    include Twitch::Request
-    include Twitch::Adapters
+    include TwitchOld::Request
+    include TwitchOld::Adapters
 
     def initialize(options = {})
       @client_id = options[:client_id] || ""

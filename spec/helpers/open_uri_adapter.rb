@@ -1,6 +1,6 @@
 require 'open-uri'
 
-module Twitch
+module TwitchOld
   module Adapters
     class OpenURIAdapter < BaseAdapter
       def self.request(method, url, options={})
@@ -17,4 +17,4 @@ module Twitch
       end
     end # class OpenURIAdapter
   end # module Adapters
-end # module Twitch
+end # module TwitchOld

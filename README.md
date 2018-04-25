@@ -17,7 +17,7 @@ Just irb or pry:
 ```ruby
 $ gem install twitch
 
-irb > require 'twitch'
+irb > require 'twitch_old'
 irb > @twitch = Twitch.new()
 ```
 

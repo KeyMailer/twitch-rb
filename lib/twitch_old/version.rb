@@ -1,5 +1,5 @@
 
-module Twitch
+module TwitchOld
   module VERSION
     MAJOR = 0
     MINOR = 1

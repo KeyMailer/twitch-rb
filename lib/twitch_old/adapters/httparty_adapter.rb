@@ -1,6 +1,6 @@
 require 'httparty'
 
-module Twitch
+module TwitchOld
   module Adapters
     class HTTPartyAdapter < BaseAdapter
 

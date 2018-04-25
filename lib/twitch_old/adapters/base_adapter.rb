@@ -1,4 +1,4 @@
-module Twitch
+module TwitchOld
   module Adapters
     class BaseAdapter
       def self.get(url, options = {})

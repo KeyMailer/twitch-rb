@@ -1,10 +1,10 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "twitch/version"
+require "twitch_old/version"
 
 Gem::Specification.new do |s|
-  s.name        = 'twitch'
-  s.version     = Twitch::VERSION::STRING
+  s.name        = 'twitch_old'
+  s.version     = TwitchOld::VERSION::STRING
   s.date        = Date.today.to_s
   s.summary     = "Twitch API"
   s.description = "Simplify Twitch's API for Ruby"

@@ -1,4 +1,4 @@
-module Twitch
+module TwitchOld
   module Request
     def build_query_string(options)
       query = "?"
