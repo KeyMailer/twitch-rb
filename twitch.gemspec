@@ -5,7 +5,7 @@ require "twitch/version"
 Gem::Specification.new do |s|
   s.name        = 'twitch'
   s.version     = Twitch::VERSION::STRING
-  s.date        = Date.today.to_s
+  s.date        = "2016-09-16"
   s.summary     = "Twitch API"
   s.description = "Simplify Twitch's API for Ruby"
   s.authors     = ["Dustin Lakin"]
